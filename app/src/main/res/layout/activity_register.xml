@@ -64,13 +64,21 @@
             >
         </EditText>
     </LinearLayout>
-
-    <Button
-        android:id="@+id/btn_register"
-        android:layout_width="250dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Register"
+        android:gravity="center"
         >
-    </Button>
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="#000080"
+            >
+        </Button>
+    </LinearLayout>
+
 
 </LinearLayout>
